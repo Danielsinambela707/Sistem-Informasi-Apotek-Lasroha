@@ -1,0 +1,75 @@
+.hometeks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px 50px 30px; /* Adjust the padding as needed */
+}
+
+.SI {
+  flex: 1;
+}
+
+.SI h1,
+.SI h2 {
+  margin-top: 0;
+}
+
+.jedagjedug{
+  border-radius: 50%;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.jedagjedug:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+  
+
+}
+
+.gambar {
+  max-width: 100%;
+  height: auto;
+}
+
+.hometeks h1{
+  font-size: 5rem;
+  font-weight: 700;
+  color: blueviolet;
+}
+
+
+.hometeks h2{
+  font-size: 4rem;
+  font-weight: 730;
+  color: rgb(255, 227, 67);
+}
+
+.SI p{
+ margin-top: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .hometeks {
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .SI {
+    padding-left: 0;  
+    padding-bottom: 10px;
+    padding-right: 0;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sambo img {
+    width: 80%;
+  }
+}
+
+.gambar{
+  border-radius: 50%;
+}
